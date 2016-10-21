@@ -1,3 +1,11 @@
+/**
+* @author Mostafa Talebi
+* @email most.talebi@gmail.com
+* @description This script simulates the problem of deadlock in concurrent programming,
+* when two threads both try to acquire the lock of an object, both working on a different
+* instances of the same object, and hence are waiting for the other to release the lock of
+* an already owned lock.
+**/
 #include <iostream>
 #include <thread>
 #include <mutex>
